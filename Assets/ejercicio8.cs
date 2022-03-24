@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//Crear una variable entera que pueda ser modificada desde el Inspector. Suponiendo que
+//el primer día de la semana es el Domingo, mostrar el nombre del día correspondiente al
+//valor de la variable “dia”. Si el día no está en el rango permitido debe emitir por pantalla el
+//mensaje de error &quot; El día ingresado no es válido&quot;.
+
 public class ejercicio8 : MonoBehaviour
 {
 

@@ -9,7 +9,7 @@ using UnityEngine;
 
 public class ejercicio3 : MonoBehaviour
 {
-    string palabra = "Nicolás";
+    public string palabra;
     // Start is called before the first frame update
     void Start()
     {

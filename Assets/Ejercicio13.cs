@@ -19,16 +19,13 @@ public class Ejercicio13 : MonoBehaviour
    void Start()
     
     {
-        pago16 = 16
-        if (Horas_Trabajadas =< 40)
+        pago16 = 16;
+        if (Horas_Trabajadas <= 40)
         {
             Debug.Log(Horas_Trabajadas * pago16);
         }
 
-        else if (Horas_Trabajadas > 40)
-        {
-            
-        }
+      
     }
 
     // Update is called once per frame

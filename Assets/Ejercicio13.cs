@@ -15,14 +15,25 @@ public class Ejercicio13 : MonoBehaviour
 {
     public int Horas_Trabajadas;
     int pago16;
+    int pago20;
+    int pagoAdicional;
+
     // Start is called before the first frame update
    void Start()
     
     {
         pago16 = 16;
+        pago20 = 20;
+        pagoAdicional = Horas_Trabajadas - 40;
+        
         if (Horas_Trabajadas <= 40)
         {
-            Debug.Log(Horas_Trabajadas * pago16);
+            Debug.Log("Se le pagará " + Horas_Trabajadas * pago16);
+        }
+
+        else
+        {
+            Debug.Log("Se le pagará $" + 40 * pago16 + " sumado a las horas extras, que serían $" + pagoAdicional * 20);
         }
 
       
